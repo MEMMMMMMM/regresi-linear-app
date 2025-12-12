@@ -1,16 +1,7 @@
 📥 Installation
-- Clone this repository
-- Install the requirements (run on CMD)
-> pip install -r requirements.txt
-
-- Running the app (run on CMD)
-> python source/app.py
-
-- (Optional) Making the .exe
-> pyinstaller --onefile --windowed source/app.py
-
-your .exe will be generated inside "dist/"
-
+- Download 'app.exe'
+- Run the 'app.exe'
+- (Optional) Download 'dataset_example.csv' for testing 
 
 📊 Multiple Linear Regression Application
 This application is a Python-based Multiple Linear Regression tool equipped with simple GUI. It allows users to:
