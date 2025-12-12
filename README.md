@@ -1,3 +1,17 @@
+📥 Installation
+- Clone this repository
+- Install the requirements (run on CMD)
+> pip install -r requirements.txt
+
+- Running the app (run on CMD)
+> python source/app.py
+
+- (Optional) Making the .exe
+> pyinstaller --onefile --windowed source/app.py
+
+your .exe will be generated inside "dist/"
+
+
 📊 Multiple Linear Regression Application
 This application is a Python-based Multiple Linear Regression tool equipped with simple GUI. It allows users to:
 - Upload datasets in CSV format
@@ -37,19 +51,6 @@ If the dataset contains invalid or missing data, the regression may fail.
 
 <img width="550" height="400" alt="Screenshot 2025-12-12 082809" src="https://github.com/user-attachments/assets/9826cb45-60a4-4225-9da1-43bc0efcce3c" />
 
-
-📥 Installation
-- Clone this repository
-- Install the requirements (run on CMD)
-> pip install -r requirements.txt
-
-- Running the app (run on CMD)
-> python source/app.py
-
-- (Optional) Making the .exe
-> pyinstaller --onefile --windowed source/app.py
-
-your .exe will be generated inside "dist/"
 
 	
 👤 Author
