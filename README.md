@@ -1,6 +1,6 @@
 📥 Installation
 - Download 'app.exe' here :
-> https://github.com/MEMMMMMMM/regresi-linear-app/releases/latest
+> https://github.com/MEMMMMMMM/regresi-linear-app/releases/download/1.0/app.exe
 
 
 - Run the 'app.exe'
