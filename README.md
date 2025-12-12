@@ -1,5 +1,8 @@
 📥 Installation
-- Download 'app.exe'
+- Download 'app.exe' here :
+> https://github.com/MEMMMMMMM/regresi-linear-app/releases/latest
+
+
 - Run the 'app.exe'
 - (Optional) Download 'dataset_example.csv' for testing 
 
