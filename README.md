@@ -1,6 +1,6 @@
 📥 Installation
 - Download 'app.exe' here :
-> https://github.com/MEMMMMMMM/regresi-linear-app/releases/download/1.0/app.exe
+> https://github.com/MEMMMMMMM/regresi-linear-app/releases/download/2.0/app.exe
 
 
 - Run the 'app.exe'
@@ -11,9 +11,11 @@ This application is a Python-based Multiple Linear Regression tool equipped with
 - Upload datasets in CSV format
 - Select the dependent variable (Y)
 - Select one or more independent variables (X)
+- Select wether variables are transformed with ln
+- Enter alpha value for p-value evaluation
 - Run a Multiple Linear Regression model
-- View results including Intercept, Regression coefficients, and R-Squared (R²) value
-- The interface is designed with a clean, modern, rounded UI using tkinter and ttkbootstrap.
+- View results including Intercept, Regression coefficients, p-value, R²/R²-Adjusted value, t-value, F-statistic
+The interface is designed with a clean, modern, rounded UI using tkinter and ttkbootstrap.
 
 🚀 Features
 - CSV File Upload, Users can upload a .csv dataset directly from their computer.
@@ -43,7 +45,7 @@ If the dataset contains invalid or missing data, the regression may fail.
 📊 Example Regression Output
 
 
-<img width="550" height="400" alt="Screenshot 2025-12-12 082809" src="https://github.com/user-attachments/assets/9826cb45-60a4-4225-9da1-43bc0efcce3c" />
+<img width="418" height="389" alt="Screenshot 2025-12-13 101735" src="https://github.com/user-attachments/assets/4c312e9d-ccd4-4af9-82b9-845d13c9796d" />
 
 
 	
