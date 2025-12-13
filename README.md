@@ -1,4 +1,4 @@
-📥 Installation
+## 📥 Installation
 - Download 'app.exe' here :
 > https://github.com/MEMMMMMMM/regresi-linear-app/releases/download/2.0/app.exe
 
@@ -6,26 +6,26 @@
 - Run the 'app.exe'
 - (Optional) Download 'dataset_example.csv' for testing 
 
-📊 Multiple Linear Regression Application
-This application is a Python-based Multiple Linear Regression tool equipped with simple GUI. It allows users to:
-- Upload datasets in CSV format
-- Select the dependent variable (Y)
-- Select one or more independent variables (X)
-- Select wether variables are transformed with ln
-- Enter alpha value for p-value evaluation
-- Run a Multiple Linear Regression model
-- View results including Intercept, Regression coefficients, p-value, R²/R²-Adjusted value, t-value, F-statistic
-The interface is designed with a clean, modern, rounded UI using tkinter and ttkbootstrap.
+## 📊 Multiple Linear Regression Application
+A desktop application built in Python that performs Multiple Linear Regression (MLR) with a clean interface (GUI). The tool is designed for students, researchers, and analysts who want a simple way to run regression without writing code. MLR is a statistical method used to model the relationship between one dependent variable and two or more independent variables. MLR is commonly used for predicting outcomes (e.g., income, revenue, performance scores), measuring variable influence (e.g., how work hours affect income), testing hypotheses using t-tests and F-tests, and identifying significant predictors in a model.
 
-🚀 Features
-- CSV File Upload, Users can upload a .csv dataset directly from their computer.
-- Dynamic Variable Selection, After uploading all column names are automatically detected
-- Y variable can be selected from a dropdown and X variables can be selected from a multi-select listbox
-- Multiple Linear Regression implemented using:
-from sklearn.linear_model import LinearRegression
-- Result Display shown in a popup message box, including Intercept (constant), Each X variable’s coefficient, and R-Squared value
+## 🚀 Key Features
+> 📁 CSV File Upload
+- Load dataset (.csv) directly from your computer
+- Automatically detects and displays all column names
+> 🔽 Dynamic Variable Selection
+- Choose Y (dependent variable) from a dropdown
+- Select one or more X variables from a multi-select listbox
+> 📐 Optional Transformations
+- Apply natural logarithm ln(Y) and ln(X variables)
+- Useful for handling skewed data or exponential relationships.
+> 🧪 Statistical Controls
+- Input custom alpha (α) for significance testing
+- p-value evaluation shown as Good (if p < α) and Bad (if p ≥ α)
+> 📈 Complete Regression Output
+- Output includes Intercept, Regression coefficients, t-values, p-values, R², Adjusted R², F-statistic, F p-value, Sample size (n), and Indicators of variable significance
 
-📝 Dataset Requirements
+## 📝 Dataset Requirements
 To avoid errors, the dataset should:
 - Be in .csv format
 - Include column headers
@@ -33,22 +33,24 @@ To avoid errors, the dataset should:
 - Not contain missing values (NaN)
 If the dataset contains invalid or missing data, the regression may fail.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 | Library          | Function                 |
 | ---------------- | ------------------------ |
 | **pandas**       | Load & process CSV files |
 | **scikit-learn** | Regression model         |
 | **tkinter**      | Base GUI framework       |
 | **ttkbootstrap** | Modern UI styling        |
-| **PyInstaller**  | Optional: build `.exe`   |
+| **numpy**		   | mathematical operations  |
+| **scipy**		   | t-test & F-test		  |
 
-📊 Example Regression Output
+
+## 📊 Example Regression Output
 
 
 <img width="418" height="389" alt="Screenshot 2025-12-13 101735" src="https://github.com/user-attachments/assets/4c312e9d-ccd4-4af9-82b9-845d13c9796d" />
 
 
 	
-👤 Author
+## 👤 Author
 - Imam Nuur Wahid
 - Developed for academic and learning purposes.
